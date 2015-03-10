@@ -1,0 +1,13 @@
+c:\users\s.o.kravchenko\documents\visual studio 2012\Projects\SeleniumTest\UITest\bin\Debug\UITest.dll
+c:\users\s.o.kravchenko\documents\visual studio 2012\Projects\SeleniumTest\UITest\bin\Debug\UITest.pdb
+c:\users\s.o.kravchenko\documents\visual studio 2012\Projects\SeleniumTest\UITest\bin\Debug\nunit.framework.dll
+c:\users\s.o.kravchenko\documents\visual studio 2012\Projects\SeleniumTest\UITest\bin\Debug\SeleniumTest.exe
+c:\users\s.o.kravchenko\documents\visual studio 2012\Projects\SeleniumTest\UITest\bin\Debug\WebDriver.dll
+c:\users\s.o.kravchenko\documents\visual studio 2012\Projects\SeleniumTest\UITest\bin\Debug\WebDriver.Support.dll
+c:\users\s.o.kravchenko\documents\visual studio 2012\Projects\SeleniumTest\UITest\bin\Debug\SeleniumTest.pdb
+c:\users\s.o.kravchenko\documents\visual studio 2012\Projects\SeleniumTest\UITest\bin\Debug\nunit.framework.xml
+c:\users\s.o.kravchenko\documents\visual studio 2012\Projects\SeleniumTest\UITest\bin\Debug\WebDriver.xml
+c:\users\s.o.kravchenko\documents\visual studio 2012\Projects\SeleniumTest\UITest\bin\Debug\WebDriver.Support.xml
+c:\users\s.o.kravchenko\documents\visual studio 2012\Projects\SeleniumTest\UITest\obj\Debug\UITest.csprojResolveAssemblyReference.cache
+c:\users\s.o.kravchenko\documents\visual studio 2012\Projects\SeleniumTest\UITest\obj\Debug\UITest.dll
+c:\users\s.o.kravchenko\documents\visual studio 2012\Projects\SeleniumTest\UITest\obj\Debug\UITest.pdb

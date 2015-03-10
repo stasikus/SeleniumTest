@@ -1,0 +1,10 @@
+c:\users\s.o.kravchenko\documents\visual studio 2012\Projects\SeleniumTest\SeleniumTest\bin\Debug\SeleniumTest.exe.config
+c:\users\s.o.kravchenko\documents\visual studio 2012\Projects\SeleniumTest\SeleniumTest\bin\Debug\SeleniumTest.exe
+c:\users\s.o.kravchenko\documents\visual studio 2012\Projects\SeleniumTest\SeleniumTest\bin\Debug\SeleniumTest.pdb
+c:\users\s.o.kravchenko\documents\visual studio 2012\Projects\SeleniumTest\SeleniumTest\bin\Debug\WebDriver.dll
+c:\users\s.o.kravchenko\documents\visual studio 2012\Projects\SeleniumTest\SeleniumTest\bin\Debug\WebDriver.Support.dll
+c:\users\s.o.kravchenko\documents\visual studio 2012\Projects\SeleniumTest\SeleniumTest\bin\Debug\WebDriver.xml
+c:\users\s.o.kravchenko\documents\visual studio 2012\Projects\SeleniumTest\SeleniumTest\bin\Debug\WebDriver.Support.xml
+c:\users\s.o.kravchenko\documents\visual studio 2012\Projects\SeleniumTest\SeleniumTest\obj\Debug\SeleniumTest.exe
+c:\users\s.o.kravchenko\documents\visual studio 2012\Projects\SeleniumTest\SeleniumTest\obj\Debug\SeleniumTest.pdb
+c:\users\s.o.kravchenko\documents\visual studio 2012\Projects\SeleniumTest\SeleniumTest\obj\Debug\SeleniumTest.csprojResolveAssemblyReference.cache
