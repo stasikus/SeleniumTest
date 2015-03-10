@@ -11,10 +11,22 @@ namespace UITest
     [TestFixture]
     public class UnitTest1 : BaseTest
     {
+        //[Test]
+        //public void ALogin()
+        //{
+            
+        //}
+
         [Test]
-        public void Login()
+        public void CheckNameAndSurname()
         {
-            LoginAction.GoTo(Config.Host);
+            Actions.checkNameAndSurname(Config.Name, Config.Surname);
         }
+
+        //[Test]
+        //public void CLogout()
+        //{
+            
+        //}
     }
 }

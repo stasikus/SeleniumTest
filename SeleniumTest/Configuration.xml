@@ -3,4 +3,7 @@
   <webpage>https://www.bondora.com</webpage>
   <login>stasikusk@gmail.com</login>
   <password>stasikusk@gmail.com</password>
+  <name>123</name>
+  <surname>123</surname>
+  <webdriver>Firefox</webdriver>  <!-- Firefox, Chrome, IE-->
 </Configuration>

@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using NUnit.Framework;
 using SeleniumTest;
 using SeleniumTest.Utils;
+using SeleniumTest.Actions;
 
 
 namespace UITest
@@ -15,15 +16,19 @@ namespace UITest
         [TestFixtureSetUp]
         public void Initialize()
         {
-            Driver.Initialize(Driver.drivers.Chrome.ToString());
+            Driver.Initialize(Config.Webdriver); //type of driver
             DriverWait.Initialize(2);
+            Driver.BrowserMaximize();
 
-            //Driver.BrowserMaximize();
+            LLAction.GoTo(Config.Host); // go to webpage
+            LLAction.Login(Config.LoginName, Config.LoginPass); // login
         }
 
         [TestFixtureTearDown]
         public void Cleanup()
         {
+            LLAction.Logout(); //logout
+
             Driver.Wait(3);
             Driver.Close();
         }

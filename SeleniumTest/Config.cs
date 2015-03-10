@@ -13,6 +13,9 @@ namespace SeleniumTest
         private static string host;
         private static string loginName;
         private static string loginPass;
+        private static string name;
+        private static string surname;
+        private static string webdriver;
         static XmlDocument xDoc = new XmlDocument();
 
         public static string Host
@@ -43,6 +46,37 @@ namespace SeleniumTest
                 xDoc.Load(Directory.GetParent(Directory.GetCurrentDirectory()).Parent.Parent.FullName + "\\SeleniumTest\\Configuration.xml");
                 loginPass = xDoc.SelectSingleNode("/Configuration/password").InnerText.ToString();
                 return loginPass;
+            }
+        }
+
+        public static string Name
+        {
+            get
+            {
+                xDoc.Load(Directory.GetParent(Directory.GetCurrentDirectory()).Parent.Parent.FullName + "\\SeleniumTest\\Configuration.xml");
+                name = xDoc.SelectSingleNode("/Configuration/name").InnerText.ToString();
+                return name;
+            }
+        }
+
+        public static string Surname
+        {
+            get
+            {
+                xDoc.Load(Directory.GetParent(Directory.GetCurrentDirectory()).Parent.Parent.FullName + "\\SeleniumTest\\Configuration.xml");
+                surname = xDoc.SelectSingleNode("/Configuration/surname").InnerText.ToString();
+                return surname;
+            }
+        }
+
+        
+        public static string Webdriver
+        {
+            get
+            {
+                xDoc.Load(Directory.GetParent(Directory.GetCurrentDirectory()).Parent.Parent.FullName + "\\SeleniumTest\\Configuration.xml");
+                webdriver = xDoc.SelectSingleNode("/Configuration/webdriver").InnerText.ToString();
+                return webdriver;
             }
         }
     }

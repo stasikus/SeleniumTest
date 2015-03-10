@@ -11,3 +11,14 @@ c:\users\s.o.kravchenko\documents\visual studio 2012\Projects\SeleniumTest\UITes
 c:\users\s.o.kravchenko\documents\visual studio 2012\Projects\SeleniumTest\UITest\obj\Debug\UITest.csprojResolveAssemblyReference.cache
 c:\users\s.o.kravchenko\documents\visual studio 2012\Projects\SeleniumTest\UITest\obj\Debug\UITest.dll
 c:\users\s.o.kravchenko\documents\visual studio 2012\Projects\SeleniumTest\UITest\obj\Debug\UITest.pdb
+D:\Git\SeleniumTest\UITest\bin\Debug\UITest.dll
+D:\Git\SeleniumTest\UITest\bin\Debug\UITest.pdb
+D:\Git\SeleniumTest\UITest\bin\Debug\SeleniumTest.exe
+D:\Git\SeleniumTest\UITest\bin\Debug\WebDriver.dll
+D:\Git\SeleniumTest\UITest\bin\Debug\WebDriver.Support.dll
+D:\Git\SeleniumTest\UITest\bin\Debug\SeleniumTest.pdb
+D:\Git\SeleniumTest\UITest\bin\Debug\WebDriver.xml
+D:\Git\SeleniumTest\UITest\bin\Debug\WebDriver.Support.xml
+D:\Git\SeleniumTest\UITest\obj\Debug\UITest.csprojResolveAssemblyReference.cache
+D:\Git\SeleniumTest\UITest\obj\Debug\UITest.dll
+D:\Git\SeleniumTest\UITest\obj\Debug\UITest.pdb
