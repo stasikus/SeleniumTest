@@ -19,5 +19,15 @@ namespace SeleniumTest.Actions
 
             return false;
         }
+
+        public static bool isLogined()
+        {
+            var content = Driver.Instance.FindElementAndWait(By.XPath("//div[@class='wrap']//div[@class='content']"));
+
+            if (content != null)
+                return true;
+
+            return false;
+        }
     }
 }

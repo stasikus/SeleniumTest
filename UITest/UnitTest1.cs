@@ -12,19 +12,25 @@ namespace UITest
     public class UnitTest1 : BaseTest
     {
         //[Test]
-        //public void ALogin()
-        //{
+        //public void Login()
+        //
             
         //}
 
-        [Test]
-        public void CheckNameAndSurname()
+        [Test(Description = "Check if user logined")]
+        public void Test1()
         {
-            Actions.checkNameAndSurname(Config.Name, Config.Surname);
+            NUnit.Framework.Assert.AreEqual(true, Actions.isLogined(), "error to login");
+        }
+
+        [Test (Description="Check name and surname")]
+        public void Test2()
+        {
+            NUnit.Framework.Assert.AreEqual(true, Actions.checkNameAndSurname(Config.Name, Config.Surname), "error description");
         }
 
         //[Test]
-        //public void CLogout()
+        //public void Logout()
         //{
             
         //}
