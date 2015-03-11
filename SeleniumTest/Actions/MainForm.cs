@@ -20,8 +20,9 @@ namespace SeleniumTest.Actions
         {
             get
             {
-                IWebElement mainFormElement = Driver.Instance.IsElementPresent(By.XPath("//div[@id='simplemodal-container']")); //if the main form is present
-
+                //IWebElement mainFormElement = Driver.Instance.IsElementPresent(By.XPath("//div[@id='simplemodal-container']")); //if the main form is present
+                var mainFormElement = Driver.Instance.FindElementAndWait(By.XPath("//div[@id='simplemodal-container']")); //if the main form is present
+                
                 if (mainFormElement != null)
                 {
                     return true;
@@ -42,8 +43,8 @@ namespace SeleniumTest.Actions
         {
             try
             {
-                IWebElement mainFormElement = Driver.Instance.IsElementPresent(By.XPath("//div[@id='simplemodal-container']")); //if the main form is present (with languages)
-
+                var mainFormElement = Driver.Instance.FindElementAndWait(By.XPath("//div[@id='simplemodal-container']")); //if the main form is present
+                
                 if (mainFormElement != null)
                 {
                     Driver.Instance.FindElement(By.XPath("//div[@id='simplemodal-container']/a[@class='modalCloseImg simplemodal-close']")).Click();
@@ -52,6 +53,23 @@ namespace SeleniumTest.Actions
             catch (Exception)
             {
                 
+            }
+            return this;
+        }
+
+        public AllActionsMainForm Language(string language)
+        {
+            try
+            {
+                Driver.Instance.FindElementAndWait(By.XPath("//div[@class='language']/a[@class='open-country-chooser']")).Click(); //open language form
+
+                Driver.Instance.FindElementAndWait(By.XPath("//ul[@class='clearfix']/li[@data-country='xx']/a[@class='more_languages']")).Click(); //add new language
+
+                Driver.Instance.FindElementAndWait(By.XPath("//div[@class='simplemodal-wrap']//div[@class='languages']//a[contains(text(),'" + language + "')]")).Click(); //choose language
+            }
+            catch (Exception)
+            {
+
             }
             return this;
         }

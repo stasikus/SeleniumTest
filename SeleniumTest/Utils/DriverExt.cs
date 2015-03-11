@@ -17,8 +17,6 @@ namespace SeleniumTest.Utils
         IWebElement FindElementAndWait(By by);
         //Can specify WebDriverWait timeout
         IWebElement FindElementAndWait(By by, int seconds);
-
-        IWebElement IsElementPresent(By by);
     }
 
 #region FF (FireFox WebDriver)
@@ -30,33 +28,26 @@ namespace SeleniumTest.Utils
         //Using default WebDriverWait timeout
         public IWebElement FindElementAndWait(By by)
         {
-            var element = DriverWait.Instance.Until<IWebElement>(d =>
-            {
-                var elements = Driver.Instance.FindElements(by);
-                if (elements.Count > 0)
-                    return elements[0];
-                else
-                    return null;
-            });
-            return element;
-        }
-
-        public IWebElement IsElementPresent(By by)
-        {
-            try
-            {
-                var elements = Driver.Instance.FindElements(by);
-                if (elements.Count > 0)
-                    return elements[0];
-                else
-                    return null;
-            }
-            catch (NoSuchElementException)
-            {
+          try
+          {
+                var element = DriverWait.Instance.Until<IWebElement>(d =>
+                {
+                
+                        var elements = Driver.Instance.FindElements(by);
+                        if (elements.Count > 0)
+                            return elements[0];
+                        else
+                            return null;
+                
+                });
+                return element;
+           }
+           catch (Exception)
+           {
                 return null;
-            }
+           }
         }
-
+        
         //Can specify WebDriverWait timeout
         public IWebElement FindElementAndWait(By by, int seconds)
         {
@@ -84,32 +75,26 @@ namespace SeleniumTest.Utils
         //Using default WebDriverWait timeout
         public IWebElement FindElementAndWait(By by)
         {
-            var element = DriverWait.Instance.Until<IWebElement>(d =>
-            {
-                var elements = Driver.Instance.FindElements(by);
-                if (elements.Count > 0)
-                    return elements[0];
-                else
-                    return null;
-            });
-            return element;
-        }
-
-        public IWebElement IsElementPresent(By by)
-        {
             try
             {
-                var elements = Driver.Instance.FindElements(by);
-                if (elements.Count > 0)
-                    return elements[0];
-                else
-                    return null;
+                var element = DriverWait.Instance.Until<IWebElement>(d =>
+                {
+
+                    var elements = Driver.Instance.FindElements(by);
+                    if (elements.Count > 0)
+                        return elements[0];
+                    else
+                        return null;
+
+                });
+                return element;
             }
-            catch (NoSuchElementException)
+            catch (Exception)
             {
                 return null;
             }
         }
+
 
         //Can specify WebDriverWait timeout
         public IWebElement FindElementAndWait(By by, int seconds)
@@ -137,33 +122,26 @@ namespace SeleniumTest.Utils
         //Using default WebDriverWait timeout
         public IWebElement FindElementAndWait(By by)
         {
-            var element = DriverWait.Instance.Until<IWebElement>(driver =>
-            {
-                var elements = driver.FindElements(by);
-                if (elements.Count > 0)
-                    return elements[0];
-                else
-                    return null;
-            });
-            return element;
-        }
-
-        public IWebElement IsElementPresent(By by)
-        {
             try
             {
-                var elements = Driver.Instance.FindElements(by);
-                if (elements.Count > 0)
-                    return elements[0];
-                else
-                    return null;
+                var element = DriverWait.Instance.Until<IWebElement>(d =>
+                {
+
+                    var elements = Driver.Instance.FindElements(by);
+                    if (elements.Count > 0)
+                        return elements[0];
+                    else
+                        return null;
+
+                });
+                return element;
             }
-            catch (NoSuchElementException)
+            catch (Exception)
             {
                 return null;
             }
         }
-
+        
         //Can specify WebDriverWait timeout
         public IWebElement FindElementAndWait(By by, int seconds)
         {

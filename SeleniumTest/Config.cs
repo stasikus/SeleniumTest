@@ -15,6 +15,9 @@ namespace SeleniumTest
         private static string loginPass;
         private static string name;
         private static string surname;
+        private static string accNu;
+        private static string language;
+        private static string filterCountry;
         private static string webdriver;
         static XmlDocument xDoc = new XmlDocument();
 
@@ -69,6 +72,35 @@ namespace SeleniumTest
             }
         }
 
+        public static string Accnum
+        {
+            get
+            {
+                xDoc.Load(Directory.GetParent(Directory.GetCurrentDirectory()).Parent.Parent.FullName + "\\SeleniumTest\\Configuration.xml");
+                accNu = xDoc.SelectSingleNode("/Configuration/accNu").InnerText.ToString();
+                return accNu;
+            }
+        }
+
+        public static string Language
+        {
+            get
+            {
+                xDoc.Load(Directory.GetParent(Directory.GetCurrentDirectory()).Parent.Parent.FullName + "\\SeleniumTest\\Configuration.xml");
+                language = xDoc.SelectSingleNode("/Configuration/language").InnerText.ToString();
+                return language;
+            }
+        }
+
+        public static string FilterCountry
+        {
+            get
+            {
+                xDoc.Load(Directory.GetParent(Directory.GetCurrentDirectory()).Parent.Parent.FullName + "\\SeleniumTest\\Configuration.xml");
+                filterCountry = xDoc.SelectSingleNode("/Configuration/filterCountry").InnerText.ToString();
+                return filterCountry;
+            }
+        }
         
         public static string Webdriver
         {
