@@ -6,7 +6,7 @@
   <name>123</name>
   <surname>123</surname>
   <language>Русский</language>
-  <filterCountry>Русский</filterCountry>
+  <filterCountry>United Kingdom</filterCountry>
   <accNu>GB29 NWBK 6016 1331 9268 19</accNu>
-  <webdriver>Firefox</webdriver>  <!-- Firefox, Chrome, IE-->
+  <webdriver>Chrome</webdriver>  <!-- Firefox, Chrome, IE-->
 </Configuration>

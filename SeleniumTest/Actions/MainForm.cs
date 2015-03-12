@@ -20,7 +20,6 @@ namespace SeleniumTest.Actions
         {
             get
             {
-                //IWebElement mainFormElement = Driver.Instance.IsElementPresent(By.XPath("//div[@id='simplemodal-container']")); //if the main form is present
                 var mainFormElement = Driver.Instance.FindElementAndWait(By.XPath("//div[@id='simplemodal-container']")); //if the main form is present
                 
                 if (mainFormElement != null)
@@ -66,6 +65,23 @@ namespace SeleniumTest.Actions
                 Driver.Instance.FindElementAndWait(By.XPath("//ul[@class='clearfix']/li[@data-country='xx']/a[@class='more_languages']")).Click(); //add new language
 
                 Driver.Instance.FindElementAndWait(By.XPath("//div[@class='simplemodal-wrap']//div[@class='languages']//a[contains(text(),'" + language + "')]")).Click(); //choose language
+            }
+            catch (Exception)
+            {
+
+            }
+            return this;
+        }
+
+        public AllActionsMainForm Filter(string countryFilter)
+        {
+            try
+            {
+                Driver.Instance.FindElementAndWait(By.XPath("//div[@class='language']/a[@class='open-country-chooser']")).Click(); //open language form
+
+                var counLan = Driver.Instance.FindElementAndWait(By.XPath("//div[@class='countries']/div[@class='header']//input")); //fill the county filter
+                counLan.Clear();
+                counLan.SendKeys(countryFilter);
             }
             catch (Exception)
             {

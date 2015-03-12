@@ -8,16 +8,6 @@ c:\users\s.o.kravchenko\documents\visual studio 2012\Projects\SeleniumTest\Selen
 c:\users\s.o.kravchenko\documents\visual studio 2012\Projects\SeleniumTest\SeleniumTest\obj\Debug\SeleniumTest.exe
 c:\users\s.o.kravchenko\documents\visual studio 2012\Projects\SeleniumTest\SeleniumTest\obj\Debug\SeleniumTest.pdb
 c:\users\s.o.kravchenko\documents\visual studio 2012\Projects\SeleniumTest\SeleniumTest\obj\Debug\SeleniumTest.csprojResolveAssemblyReference.cache
-F:\SelTes\SeleniumTest\SeleniumTest\bin\Debug\SeleniumTest.exe.config
-F:\SelTes\SeleniumTest\SeleniumTest\obj\Debug\SeleniumTest.exe
-F:\SelTes\SeleniumTest\SeleniumTest\obj\Debug\SeleniumTest.pdb
-F:\SelTes\SeleniumTest\SeleniumTest\bin\Debug\SeleniumTest.exe
-F:\SelTes\SeleniumTest\SeleniumTest\bin\Debug\SeleniumTest.pdb
-F:\SelTes\SeleniumTest\SeleniumTest\bin\Debug\WebDriver.dll
-F:\SelTes\SeleniumTest\SeleniumTest\bin\Debug\WebDriver.Support.dll
-F:\SelTes\SeleniumTest\SeleniumTest\bin\Debug\WebDriver.xml
-F:\SelTes\SeleniumTest\SeleniumTest\bin\Debug\WebDriver.Support.xml
-F:\SelTes\SeleniumTest\SeleniumTest\obj\Debug\SeleniumTest.csprojResolveAssemblyReference.cache
 D:\Git\SeleniumTest\SeleniumTest\bin\Debug\SeleniumTest.exe.config
 D:\Git\SeleniumTest\SeleniumTest\bin\Debug\SeleniumTest.exe
 D:\Git\SeleniumTest\SeleniumTest\bin\Debug\SeleniumTest.pdb
@@ -28,3 +18,13 @@ D:\Git\SeleniumTest\SeleniumTest\bin\Debug\WebDriver.Support.xml
 D:\Git\SeleniumTest\SeleniumTest\obj\Debug\SeleniumTest.exe
 D:\Git\SeleniumTest\SeleniumTest\obj\Debug\SeleniumTest.pdb
 D:\Git\SeleniumTest\SeleniumTest\obj\Debug\SeleniumTest.csprojResolveAssemblyReference.cache
+F:\SelTes\SeleniumTest\SeleniumTest\bin\Debug\SeleniumTest.exe.config
+F:\SelTes\SeleniumTest\SeleniumTest\bin\Debug\SeleniumTest.exe
+F:\SelTes\SeleniumTest\SeleniumTest\bin\Debug\SeleniumTest.pdb
+F:\SelTes\SeleniumTest\SeleniumTest\bin\Debug\WebDriver.dll
+F:\SelTes\SeleniumTest\SeleniumTest\bin\Debug\WebDriver.Support.dll
+F:\SelTes\SeleniumTest\SeleniumTest\bin\Debug\WebDriver.xml
+F:\SelTes\SeleniumTest\SeleniumTest\bin\Debug\WebDriver.Support.xml
+F:\SelTes\SeleniumTest\SeleniumTest\obj\Debug\SeleniumTest.exe
+F:\SelTes\SeleniumTest\SeleniumTest\obj\Debug\SeleniumTest.pdb
+F:\SelTes\SeleniumTest\SeleniumTest\obj\Debug\SeleniumTest.csprojResolveAssemblyReference.cache

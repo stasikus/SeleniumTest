@@ -53,16 +53,16 @@ namespace UITest
             }
         }
 
-        //[Test(Description = "Filter")]
-        //public void Test5()
-        //{
-        //    bool addedLan = Actions.changeLanguage(Config.Language);
+        [Test(Description = "Filter")]
+        public void Test5()
+        {
+            bool chosenCountry = Actions.changeFilter(Config.FilterCountry);
 
-        //    if (!addedLan)
-        //    {
-        //        NUnit.Framework.Assert.AreEqual(true, addedLan, "Something going wrong..");
-        //    }
-        //}
+            if (!chosenCountry)
+            {
+                NUnit.Framework.Assert.AreEqual(true, chosenCountry, "No matches with chosen country filter");
+            }
+        }
 
     }
 }

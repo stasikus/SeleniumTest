@@ -42,12 +42,31 @@ namespace SeleniumTest.Actions
 
         public static bool changeLanguage(string language)
         {
-            MainForm.MainFormDialog().Close().Language(language);
+            MainForm.MainFormDialog().Language(language);
 
             var actualLang = Driver.Instance.FindElementAndWait(By.XPath("//div[@class='language']/ul//a[contains(text(),'" + language + "')]"));
 
             if (actualLang != null)
                 return true;
+            else
+                MainForm.MainFormDialog().Close();
+
+            return false;
+        }
+
+        public static bool changeFilter(string countryFilter)
+        {
+            MainForm.MainFormDialog().Filter(countryFilter);
+
+            var chosenCountry = Driver.Instance.FindElementAndWait(By.XPath("//div[@class='countries']//ul[@class='clearfix']"));
+
+            if (chosenCountry.Text != "")
+            {
+                MainForm.MainFormDialog().Close();
+                return true;
+            }
+            else
+                MainForm.MainFormDialog().Close();
 
             return false;
         }
